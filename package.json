@@ -6,5 +6,10 @@
   "main": "api/products.js",
   "scripts": {
     "start": "node api/products.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "@vercel/postgres": "^0.10.0",
+    "uuid": "^13.0.0"
   }
 }
