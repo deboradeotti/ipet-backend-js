@@ -1,0 +1,10 @@
+{
+  "name": "ipet-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API de Produtos do iPet",
+  "main": "api/products.js",
+  "scripts": {
+    "start": "node api/products.js"
+  }
+}
