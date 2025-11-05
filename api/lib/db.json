@@ -1,0 +1,354 @@
+{
+  "products": [
+    {
+      "id": "c001",
+      "nome": "Ração Cães Adultos Porte Grande Premium",
+      "descricao": "Ração seca sabor frango e arroz, formulada para cães adultos de porte grande. Enriquecida com condroitina para articulações fortes.",
+      "preco": 189.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c002",
+      "nome": "Ração Cães Filhotes Raças Pequenas",
+      "descricao": "Ração premium para filhotes de raças pequenas (até 10kg). Grãos menores e alta proteína para crescimento saudável.",
+      "preco": 99.50,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c003",
+      "nome": "Bola de Borracha Resistente 'Indestrutível'",
+      "descricao": "Brinquedo de borracha maciça, quase indestrutível. Ideal para cães com mordida forte, como Pitbulls e Pastores.",
+      "preco": 45.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c004",
+      "nome": "Petisco Dental 'DentaLife' Porte Médio",
+      "descricao": "Petisco funcional para limpeza de tártaro. Formato especial que ajuda a limpar os dentes. Para cães de porte médio.",
+      "preco": 29.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c005",
+      "nome": "Cama Nuvem Redonda Anti-Stress",
+      "descricao": "Cama redonda super macia com pelos longos, efeito calmante. Tamanho G (80cm diâmetro). Lavável.",
+      "preco": 149.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c006",
+      "nome": "Ração Hipoalergênica Salmão Cães Sensíveis",
+      "descricao": "Ração super premium para cães com alergias de pele. Proteína única de salmão, sem grãos (grain-free).",
+      "preco": 249.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c007",
+      "nome": "Tapete Higiênico Ultra Absorvente (30 unidades)",
+      "descricao": "Tapetes higiênicos com carvão ativado para neutralizar odores. 6 camadas de proteção. Atrativo canino.",
+      "preco": 79.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c008",
+      "nome": "Brinquedo Kong Classic Vermelho Tamanho M",
+      "descricao": "Brinquedo clássico para rechear com petiscos. Pula de forma imprevisível. Para mordidas moderadas.",
+      "preco": 89.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c009",
+      "nome": "Coleira Peitoral 'Easy Walk' Anti-Puxão",
+      "descricao": "Coleira peitoral com engate frontal que desencoraja o cão a puxar durante o passeio. Ajustável.",
+      "preco": 119.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c010",
+      "nome": "Ração Cães Idosos 7+ Raças Médias",
+      "descricao": "Alimento completo para cães sênior (7+ anos). Menos gordura e mais fibras, para controle de peso e saúde intestinal.",
+      "preco": 159.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c011",
+      "nome": "Guia Retrátil 5 Metros",
+      "descricao": "Guia retrátil com fita de 5 metros, para cães de até 20kg. Botão de trava rápida e pegada ergonômica.",
+      "preco": 69.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c012",
+      "nome": "Shampoo Neutro Hipoalergênico 500ml",
+      "descricao": "Shampoo suave para cães e gatos de pele sensível. Sem corantes ou parabenos. Limpa sem agredir.",
+      "preco": 39.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c013",
+      "nome": "Osso de Nylon Sabor Bacon",
+      "descricao": "Brinquedo de roer ultra resistente. Nylon atóxico sabor bacon. Ajuda a limpar os dentes. Para mordidas fortes.",
+      "preco": 55.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c014",
+      "nome": "Ração Úmida 'Recovery' Cães Convalescentes",
+      "descricao": "Lata de alimento úmido super calórico para cães doentes ou em recuperação pós-cirúrgica. Alta palatabilidade.",
+      "preco": 24.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c015",
+      "nome": "Capa de Chuva Impermeável com Capuz",
+      "descricao": "Capa de chuva para cães, protege da chuva e do vento. Tecido leve e impermeável. Tamanho P, M e G.",
+      "preco": 75.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c016",
+      "nome": "Brinquedo Interativo 'Quebra-Cabeça' Nível 2",
+      "descricao": "Jogo de inteligência para cães. Esconda petiscos e ensine o cão a deslizar peças para encontrá-los. Estimula a mente.",
+      "preco": 95.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c017",
+      "nome": "Ração Light Raças Pequenas Sabor Peru",
+      "descricao": "Ração seca para cães pequenos acima do peso. Reduzida em calorias e gorduras, com L-carnitina.",
+      "preco": 110.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c018",
+      "nome": "Coleira Antipulgas e Carrapatos (Duração 8 meses)",
+      "descricao": "Coleira medicamentosa que protege contra pulgas e carrapatos por até 8 meses. Resistente à água.",
+      "preco": 139.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c019",
+      "nome": "Comedouro Lento Anti-Gula",
+      "descricao": "Tigela com obstáculos internos que fazem o cão comer mais devagar. Evita engasgos e problemas digestivos.",
+      "preco": 49.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c020",
+      "nome": "Suplemento Vitamínico 'Pelo e Derme' 60 cápsulas",
+      "descricao": "Suplemento com Ômega 3 e 6, Biotina e Zinco. Indicado para cães com queda de pelo excessiva ou pele seca.",
+      "preco": 88.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c021",
+      "nome": "Bebedouro Portátil de Passeio",
+      "descricao": "Garrafa de água com tigela acoplada. Aperte para liberar a água. Ideal para caminhadas e viagens.",
+      "preco": 35.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c022",
+      "nome": "Caixa de Transporte Aéreo N°3",
+      "descricao": "Caixa de transporte resistente, aprovada para viagens de avião (padrão IATA). Para cães de porte médio.",
+      "preco": 299.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c023",
+      "nome": "Biscoito Natural Maçã e Canela (Sem Conservantes)",
+      "descricao": "Petisco 100% natural, assado, sem corantes ou conservantes. Sabor maçã e canela. Para todos os portes.",
+      "preco": 19.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c024",
+      "nome": "Roupinha Soft Inverno Estampa Xadrez",
+      "descricao": "Roupa de moletom flanelado para dias frios. Quentinha e confortável. Vários tamanhos.",
+      "preco": 59.90,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "c025",
+      "nome": "Escova de Dentes 'Dedeira' com Pasta",
+      "descricao": "Kit de higiene oral. Inclui pasta de dentes sabor menta (segura para cães) e duas escovas tipo dedeira de silicone.",
+      "preco": 28.00,
+      "especie_alvo": "cachorro"
+    },
+    {
+      "id": "g001",
+      "nome": "Ração Gatos Castrados Salmão Premium",
+      "descricao": "Ração seca para gatos adultos castrados. Sabor salmão, com controle de pH urinário para prevenir problemas renais.",
+      "preco": 179.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g002",
+      "nome": "Arranhador Torre Gigante 3 Níveis",
+      "descricao": "Arranhador grande com 1,20m de altura. Múltiplas plataformas, casinha e rede. Ideal para vários gatos ou raças grandes como Maine Coon.",
+      "preco": 349.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g003",
+      "nome": "Areia Higiênica Sílica Micro Cristais",
+      "descricao": "Areia de sílica que absorve totalmente a urina e elimina odores. Dura até 30 dias para um gato. Pacote 1.8kg.",
+      "preco": 59.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g004",
+      "nome": "Ração Úmida Sachê 'Gourmet' Atum e Camarão",
+      "descricao": "Sachê de alimento úmido super premium. Pedaços de atum e camarão em molho. Alta palatabilidade.",
+      "preco": 4.50,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g005",
+      "nome": "Fonte de Água Automática 2L",
+      "descricao": "Bebedouro tipo fonte, mantém a água circulando e fresca. Estimula o gato a beber mais água. Baixo ruído.",
+      "preco": 139.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g006",
+      "nome": "Ração Gatos Filhotes Frango",
+      "descricao": "Ração seca para gatos filhotes (2 a 12 meses). Rica em DHA para desenvolvimento cerebral e grãos pequenos.",
+      "preco": 89.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g007",
+      "nome": "Varinha com Pena e Guizo",
+      "descricao": "Brinquedo clássico para gatos. Varinha flexível com penas coloridas e um guizo na ponta. Estimula o instinto de caça.",
+      "preco": 14.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g008",
+      "nome": "Arranhador de Papelão 'Rampa'",
+      "descricao": "Arranhador simples de papelão ondulado em formato de rampa. Inclui catnip. Ótimo custo-benefício.",
+      "preco": 29.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g009",
+      "nome": "Caixa de Areia Fechada 'Banheiro'",
+      "descricao": "Banheiro fechado para gatos, com porta basculante e filtro de carvão ativado. Evita que a areia se espalhe.",
+      "preco": 119.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g010",
+      "nome": "Ração Gatos Idosos 10+ Sênior",
+      "descricao": "Alimento para gatos com mais de 10 anos. Nutrientes balanceados para saúde renal e articulações. Textura mais macia.",
+      "preco": 105.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g011",
+      "nome": "Coleira Antipulgas Gatos (Duração 6 meses)",
+      "descricao": "Coleira medicamentosa para gatos, protege contra pulgas. Com dispositivo de segurança que abre caso o gato se prenda.",
+      "preco": 99.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g012",
+      "nome": "Arranhador de Sofá (Protetor de Canto)",
+      "descricao": "Protetor de canto de sofá em sisal. Evita que o gato arranhe os móveis. Discreto e funcional.",
+      "preco": 65.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g013",
+      "nome": "Petisco 'Dreamies' Sabor Queijo (Crocante por fora, macio por dentro)",
+      "descricao": "Petisco famoso pelo sabor irresistível. Crocante por fora e recheado. Pacote 60g.",
+      "preco": 12.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g014",
+      "nome": "Ração Gatos 'Indoor' (Ambientes Internos)",
+      "descricao": "Ração para gatos que vivem exclusivamente dentro de casa. Menos calorias e ajuda na redução do odor das fezes.",
+      "preco": 169.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g015",
+      "nome": "Rede de Janela (Kit Segurança 3m x 2m)",
+      "descricao": "Kit de instalação de rede de proteção para janelas e sacadas. Malha 5x5cm. Essencial para segurança de gatos.",
+      "preco": 79.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g016",
+      "nome": "Túnel Dobrável com 3 Saídas",
+      "descricao": "Brinquedo túnel em nylon com 3 saídas e uma bolinha pendurada. Dobrável, fácil de guardar.",
+      "preco": 55.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g017",
+      "nome": "Ração Controle de Bolas de Pelo",
+      "descricao": "Ração seca com alto teor de fibras. Ajuda a prevenir a formação de bolas de pelo no estômago. Ideal para gatos peludos.",
+      "preco": 185.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g018",
+      "nome": "Pá Higiênica Coletora",
+      "descricao": "Pá para limpeza da caixa de areia. Furos largos, ideal para areias tipo torrão.",
+      "preco": 9.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g019",
+      "nome": "Ração Gatos Persa (Específica para Raça)",
+      "descricao": "Ração desenvolvida para gatos da raça Persa. Grão em formato especial para facilitar a preensão e foco na saúde da pelagem longa.",
+      "preco": 120.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g020",
+      "nome": "Graminha de Gato (Kit Plantio)",
+      "descricao": "Kit com sementes e substrato para plantar grama de milho e aveia. Ajuda na digestão e eliminação de bolas de pelo.",
+      "preco": 15.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g021",
+      "nome": "Brinquedo Ratinho de Corda",
+      "descricao": "Brinquedo clássico de ratinho cinza que anda ao dar corda. Desperta o instinto de caça.",
+      "preco": 8.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g022",
+      "nome": "Comedouro Elevado Duplo (Cerâmica)",
+      "descricao": "Comedouro duplo (água e comida) elevado. Ajuda na postura e digestão do gato, evitando vômitos. Tigelas de cerâmica.",
+      "preco": 89.90,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g023",
+      "nome": "Areia Higiênica 'Grãos Finos' (Forma Torrão)",
+      "descricao": "Areia aglomerante de grãos finos, similar à areia da praia. Forma torrões firmes e fáceis de remover.",
+      "preco": 45.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g024",
+      "nome": "Suplemento 'Calmante' Natural (Passiflora)",
+      "descricao": "Suplemento em pasta com extrato de passiflora. Ajuda a acalmar gatos em situações de stress (viagens, veterinário).",
+      "preco": 55.00,
+      "especie_alvo": "gato"
+    },
+    {
+      "id": "g025",
+      "nome": "Bolsa de Transporte 'Astronauta'",
+      "descricao": "Mochila de transporte com domo de acrílico transparente (bolha). Permite que o gato veja o exterior. Para gatos de até 7kg.",
+      "preco": 199.00,
+      "especie_alvo": "gato"
+    }
+  ]
+}
