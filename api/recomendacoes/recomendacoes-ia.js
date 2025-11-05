@@ -13,12 +13,11 @@ export default async function handler(req, res) {
   }
 
   try {
-    // 1. LÊ O ARQUIVO JSON MANUALMENTE
+    // Leitura do arquivo JSON (database)
     const jsonPath = path.join(process.cwd(), 'api', 'lib', 'db.json');
     const fileContents = await fs.readFile(jsonPath, 'utf8');
     const db = JSON.parse(fileContents); 
 
-    // 2. O RESTO DO SEU CÓDIGO
     const { especie, raca, porte, nome_pet } = req.body;
 
     if (!especie) {
@@ -41,9 +40,6 @@ export default async function handler(req, res) {
       });
     }
 
-    // ---
-    // MUDANÇA 1: O NOVO PROMPT EXIGINDO JSON
-    // ---
     const prompt = `
       Você é um especialista em produtos de petshop. 
       Um usuário quer uma recomendação de produtos para o pet dele.
@@ -81,15 +77,13 @@ export default async function handler(req, res) {
       }
     `;
 
-    // 4. Chamar a API do Gemini
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }); // Usando o modelo que funcionou
+    // Chamando a API do Gemini
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const iaTextResponse = response.text();
 
-    // ---
-    // MUDANÇA 2: FAZER O PARSE DA RESPOSTA DA IA
-    // ---
+    // Parse da resposta da IA
     let jsonResponse;
     try {
       // A IA pode retornar o texto de JSON dentro de ```json ... ```
@@ -104,14 +98,14 @@ export default async function handler(req, res) {
       return res.status(500).json({ 
         code: "IA_RESPONSE_INVALID", 
         message: "A IA retornou uma resposta em formato inválido.",
-        raw_response: iaTextResponse // Envia o texto quebrado para o front
+        raw_response: iaTextResponse
       });
     }
 
-    // 5. Retornar o objeto JSON parseado
+    //Retornando o objeto JSON parseado
     return res.status(200).json({ 
       pet_info: req.body,
-      recomendacao: jsonResponse // Agora 'recomendacao' é um objeto
+      recomendacao: jsonResponse
     });
 
   } catch (error) {
